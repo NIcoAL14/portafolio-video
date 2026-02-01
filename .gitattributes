@@ -1,0 +1,2 @@
+# Ignore CSS for language statistics to make the repo show as "HTML"
+*.css linguist-vendored
