@@ -1,2 +1,8 @@
-# Ignore CSS for language statistics to make the repo show as "HTML"
+# Ignore all CSS, JS, and Assets from language stats
+styles.css linguist-vendored
 *.css linguist-vendored
+*.js linguist-vendored
+assets/* linguist-vendored
+
+# Force HTML to be detected
+*.html linguist-detectable=true
